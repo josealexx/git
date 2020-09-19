@@ -1,0 +1,20 @@
+git init: inicia um novo projecto.
+ls: mostra ficheiros.
+ls -a: mostra ficheiros ocultos.
+git status: mostra as modificações.
+touch (nome.extensão): cria novo arquivo com o respectivo nome.extensão.
+git add arquivo: adiciona o arquivo no repositorio. 
+git add *:adiciona todos os arquivos no repositorio.  
+git add .:adiciona todas as mudanças no repositorio. 
+git log: monitorar as mudanças feitas no projecto.
+git log --oneline: monitorar as mudanças feitas no projecto de forma resumida.
+git log --graph: monitorar as mudanças feitas no projecto com grafico.
+git commit -am "comentario":salvar as alterações e colocar o comentario como etiqueta.
+git branch: mostra o ramo em que o projecto se encontra.
+git checkout (commit): pega a versão do projecto naquele commit.
+git reset --hard(commit): remover o commit.
+git checkout -b 'nome_do_ramo': criar novo ramo.
+git checkout nomedoramo: selecionar ou voltar para um ramo
+git log --oneline --graph --all: mostra as ramificações em todos os nodos.
+git merge nome_do_ramo: juntar o nome_do_ramo ao ramo master.
+git merge --abort: anular a fusão de ramos em caso de conflitos. 
